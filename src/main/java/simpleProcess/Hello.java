@@ -1,8 +1,10 @@
 package simpleProcess;
 
+import org.testng.annotations.Test;
+
 public class Hello {
-	
-	public static void main(String[] args) {
+	@Test
+	public void l() {
 		
 		for(int i=1;i<11;i++)
 		{

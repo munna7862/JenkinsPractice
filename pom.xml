@@ -16,6 +16,17 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>7.1.0</version>
+			<scope>test</scope>
+		</dependency>
+
+	</dependencies>
+
 	<build>
 		<plugins>
 			<plugin>
@@ -24,7 +35,7 @@
 				<version>2.22.0</version>
 				<configuration>
 					<includes>
-						<include>Hello.java</include>
+						<include>src/main/java/simpleProcess/Hello.java</include>
 					</includes>
 				</configuration>
 			</plugin>
